@@ -1,0 +1,44 @@
+.item {
+   position: relative;
+   
+}
+
+.item .text {
+   position: absolute;
+   bottom: 20px;
+   left: 10% ;
+
+   width: 80%;
+ 
+}
+
+
+.light-container {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,.5) ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.light-container .light-box {
+   width: 90%;
+   height: 85%;
+   background-image: url('../images/p-1.jpg');
+   background-size: 100% 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+}
+
+
+.light-container .light-box #close {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
